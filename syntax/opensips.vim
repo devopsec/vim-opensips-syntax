@@ -1,0 +1,1 @@
+../opensips/utils/vim/opensips.vim
