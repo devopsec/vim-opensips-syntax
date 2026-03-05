@@ -1,3 +1,0 @@
-[submodule "opensips"]
-	path = opensips
-	url = https://github.com/OpenSIPS/opensips.git

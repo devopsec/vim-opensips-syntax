@@ -1,23 +1,8 @@
 ## Overview
 
-Vim syntax highlighting for opensips routing configs.  
-This repo tracks the upstream opensips repo changes.
+Vim syntax highlighting for opensips routing configs.
 
 ## Installation
-
-### Manual Install
-
-Using the setup bash script:
-
-```
-./install.sh
-```
-
-This script simply copies the files into the correct locations.  
-Alternatively you can maually copy them:
-
-- copy ftdetect/opensips.vim to ~/.vim/ftdetect/opensips.vim
-- copy syntax/opensips.vim to ~/.vim/syntax/opensips.vim
 
 ### Plugin Manager
 
@@ -35,8 +20,21 @@ For example in Vundle:
 vim +PluginInstall +qall
 ```
 
-## Contirbuting
+### Manual Install
+
+Using the included Makefile:
+
+```
+make install
+```
+
+This will simply copy the files into the correct locations.  
+Alternatively, you can manually copy them:
+
+- copy ftdetect/opensips.vim to ~/.vim/ftdetect/opensips.vim
+- copy syntax/opensips.vim to ~/.vim/syntax/opensips.vim
+
+## Contributing
 
 PR's welcome.  
-For changes to the syntax highlighting logic go to the upstream [opensips repo](https://github.com/OpenSIPS/opensips).
-
+For changes to the syntax highlighting logic please see the upstream project [opensips](https://github.com/OpenSIPS/opensips).
